@@ -1,0 +1,7 @@
+baseURL = "http://grwn.io/"
+languageCode = "en-us"
+title = "grwn"
+theme = "elephants"
+
+[params]
+    sitename = "grwn"
