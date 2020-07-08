@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0"/>
+
+        <title>{{.Title}}</title>
+
+        <link rel="icon" href="data:,">
+        <style>
+            body {
+                margin: 5% auto; 
+                background: #f2f2f2; 
+                color: #444444; 
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+                font-size: 16px; 
+                line-height: 1.8; 
+                text-shadow: 0 1px 0 #ffffff; 
+                max-width: 60%;
+            }
+
+            code {
+                background: white;
+            }
+
+            a {
+                border-bottom: 1px solid #444444; 
+                color: #444444; 
+                text-decoration: none;
+            }
+
+            a:hover {
+                border-bottom: 0;
+            }
+
+            #page-title {
+                text-align: center;
+            }
+
+            .date-time-title {
+                display: inline-block;
+            }
+
+            #posts {
+                padding-left: 2em;
+            }
+
+            .post {
+                padding-left: 1em;
+            }
+
+            .blog-post {
+                padding-left: 1em;
+            }
+        </style> 
+    </head>
+    <body>
+        <section id="page-title">
+            <h1><a href="/">{{ .Site.Params.sitename | default "Elephants"}}</a></h1>
+        </section>
+

@@ -2,6 +2,7 @@ baseURL = "http://grwn.io/"
 languageCode = "en-us"
 title = "grwn"
 theme = "elephants"
+disableHugoGeneratorInject = true
 
 [params]
     sitename = "grwn"
